@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>yuman peys</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Click on the Human Face Parts</h2>
+
+<div class="face-container">
+    <div class="eyes">
+        <img src="right eye.png" alt="Right Eye" onclick="displayPart('Right Eye')">
+    </div>
+    <div class="nose">
+        <img src="nose.png" alt="Nose" onclick="displayPart('Nose')">
+    </div>
+    <div class="eyes">
+        <img src="left eye.png" alt="Left Eye" onclick="displayPart('Left Eye')">
+    </div>
+</div>
+
+<div class="face-container">
+    <div class="mouth">
+        <img src="mouth.png" alt="Mouth" onclick="displayPart('Mouth')">
+    </div>
+</div>
+
+<script>
+    function displayPart(part) {
+        alert("You clicked on the " + part);
+    }
+</script>
+
+</body>
+</html>
